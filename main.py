@@ -118,7 +118,7 @@ def run():
 				if len(row) == 3:
 					val = int(''.join(row))
 					
-					print(f'VALUE: {val}')
+					print(f'ROW: {int((i+1)/3)}    VALUE: {val}')
 
 					if val % 3 == 0:
 						if val % 5 == 0:
